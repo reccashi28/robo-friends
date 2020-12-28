@@ -2,13 +2,8 @@ import React from 'react';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-// import Card from './Card.js';
-import CardList from './CardList';
 import ReactDOM from 'react-dom';
-import { robots } from './robots';
+import App from './App';
 
-ReactDOM.render(
-    <CardList robots = { robots }/>
-    ,document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
 reportWebVitals();
